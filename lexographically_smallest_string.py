@@ -1,9 +1,13 @@
-# find lexographically smallest string with multiple allowed swaps on particular indices
-# Input - cdafbe
-# 3 m no of pairs that allowed to be swapped
-# 0 1
-# 2 1
-# 3 5
+'''
+find lexographically smallest string with multiple allowed swaps on particular indices
+Input - 
+cdafbe
+3 (m no of pairs that allowed to be swapped)
+0 1
+2 1
+3 5
+o/p - acdebf
+'''
 
 from collections import defaultdict
 
